@@ -4,3 +4,6 @@ class ServiceError(Exception):
 
 class UserDoesntInstallAppError(ServiceError):
     ...
+
+class NoParentRepositoryError(ServiceError):
+    ...
