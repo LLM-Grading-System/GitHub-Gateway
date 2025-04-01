@@ -6,6 +6,7 @@ requires-python = ">=3.11"
 dependencies = [
     "cryptography>=44.0.2",
     "fastapi>=0.115.12",
+    "faststream>=0.5.37",
     "granian>=2.2.0",
     "httpx>=0.28.1",
     "pydantic-settings>=2.8.1",

@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Body, Path
 
 from src.api.dependencies import CommentService, InfoService
-from src.api.schemas import CreateCommentRequest, RepositoryInfoResponse
+from src.api.schema.github import CreateCommentRequest, RepositoryInfoResponse
 
-from src.api.general_schemas import SuccessResponse
+from src.api.schema.general import SuccessResponse
 
 router = APIRouter(tags=["github"], prefix="/github")
 
