@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request, status
 from fastapi.responses import JSONResponse
 
-from src.api.general_schemas import ErrorResponse
+from src.api.schema.general import ErrorResponse
 from src.services.exceptions import ServiceError
 
 
